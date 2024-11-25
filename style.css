@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: grey;
+    /*Añadido mío*/
+    background-image: url(assets/bg-film.png);
 }
 
 header {
@@ -10,6 +12,8 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    /*Añadido mío*/
+    background-image: url(assets/header.png);
 }
 
 #peliculasLista {
@@ -28,6 +32,9 @@ header {
     padding: 10px;
     background-color: white;
     margin: 10px;
+    /*Añadido mío*/
+    /* font-weight: bold; */
+    font-size: 1.5em;
 }
 
 .peliculaItem > button {
@@ -37,8 +44,19 @@ header {
     background-color: red;
     color: white;
     border: none;
+    /*Añadido mío*/
+    border-radius: 5px;
 }
 
 .peliculaItem > button:hover {
     background-color: rgb(141, 0, 0);
+}
+
+/* Añadido propio para personalizar las imágenes */
+.peliculaItem > img {
+    width: 150px;
+    height: auto;
+    border: solid 1.5px red;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px black;
 }

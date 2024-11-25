@@ -1,0 +1,5 @@
+Las fases de desarrollo que he encontrado en esta prueba son las siguientes:
+
+- Planificación del proyecto: La documentación que recibimos cuenta con instrucciones concisas previamente planificadas para llevar al siguiente nivel (ejecución).
+- Ejecución del proyecto: Desarrollamos el código de nuestra aplicación web siguiendo las directrices acordadas en la fase anterior.
+- Desempeño del proyecto: Corregimos código mal formulado, errores en el proyecto y probamos y validamos hasta que la aplicación funciona correctamente.
