@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#peliculasLista {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.peliculaItem {
+    border-radius: 5 px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+}
+
+.peliculaItem > button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3 px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.peliculaItem > button:hover {
+    background-color: rgb(141, 0, 0);
+}
