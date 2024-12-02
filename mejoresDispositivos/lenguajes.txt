@@ -1,0 +1,5 @@
+¿Cuál es la diferencia entre un lenguaje cliente y un lenguaje servidor? Da un ejemplo de cada uno y explica cómo se ejecutan.
+
+Un cliente realiza peticiones a otro programa, el servidor, quien le da respuesta.
+Lenguaje cliente: HTML
+Lenguaje servidor: PHP

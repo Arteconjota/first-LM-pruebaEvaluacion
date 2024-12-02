@@ -16,6 +16,13 @@ header {
     background-image: url(assets/header.png);
 }
 
+/*Para centrar el último botón cambiacolor*/
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Continuación código examen*/
 #peliculasLista {
     list-style: none;
     padding: 0;
@@ -59,4 +66,17 @@ header {
     border: solid 1.5px red;
     border-radius: 10px;
     box-shadow: 2px 2px 20px black;
+}
+
+/*CREACIÓN CLASE -> BOTON CAMBIACOLOR*/
+.btn-changeColor {
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 3 px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
 }
